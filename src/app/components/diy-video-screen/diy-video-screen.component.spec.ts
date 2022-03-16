@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DiyVideoPageComponent } from './diy-video-page.component';
+import { DiyVideoScreenComponent } from './diy-video-screen.component';
 
-describe('DiyVideoPageComponent', () => {
-  let component: DiyVideoPageComponent;
-  let fixture: ComponentFixture<DiyVideoPageComponent>;
+describe('DiyVideoScreenComponent', () => {
+  let component: DiyVideoScreenComponent;
+  let fixture: ComponentFixture<DiyVideoScreenComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DiyVideoPageComponent ]
+      declarations: [ DiyVideoScreenComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DiyVideoPageComponent);
+    fixture = TestBed.createComponent(DiyVideoScreenComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

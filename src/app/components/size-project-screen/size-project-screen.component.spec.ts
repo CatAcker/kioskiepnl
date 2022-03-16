@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SizeProjectComponent } from './size-project.component';
+import { SizeProjectScreenComponent } from './size-project-screen.component';
 
-describe('SizeProjectComponent', () => {
-  let component: SizeProjectComponent;
-  let fixture: ComponentFixture<SizeProjectComponent>;
+describe('SizeProjectScreenComponent', () => {
+  let component: SizeProjectScreenComponent;
+  let fixture: ComponentFixture<SizeProjectScreenComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SizeProjectComponent ]
+      declarations: [ SizeProjectScreenComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SizeProjectComponent);
+    fixture = TestBed.createComponent(SizeProjectScreenComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
